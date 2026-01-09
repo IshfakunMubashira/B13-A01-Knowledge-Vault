@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.inter-font-style {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    width: 139px;
+    margin: 16px;
+    padding-left: 120px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 365px;
+    margin: 34px 340px; 
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+nav .btn{
+    margin: 24px;
+    padding-right: 120px;
+
+}
+nav .btn button{
+    width: 164px;
+    border: 0;
+    padding: 16px 12px;
+    background-color: #469165;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+#banner{
+    background-image: url("assets/hero-bg.png");
+    height: 674px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#banner .banner-container{
+    margin: 0 120px 180px 120px;
+    padding: 115px;
+    text-align: center;
+    display: block;
+}
+
+
+#banner .banner-container .early-acs button{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    background-color: white;
+    padding: 12px 8px;
+    border: 0;
+    border-radius: 1000px;
+    width: auto;
+    /* margin: 0 565px; */
+}
+#banner .banner-container .early-acs button .logo-dot{
+    width: 12px;
+    height: 12px;
+    background-color: #469165;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow:
+    0 0 0 6px #9FC6AE,
+    0 0 0 12px #DAE9E0;
+
+    margin: 9px 6px 9px 12px;
+}
+
+#banner .banner-container .banner-headings h1{
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    opacity: 90%;
+    color: white;
+}
+
+#banner .banner-container .banner-headings p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 90%;
+    color: white;
+    margin: 16px 0;
+}
+
+#banner .banner-container .banner-btn .btn{
+    width: 251px;
+    border: 0;
+    padding: 16.5px 10px 16.5px 16px;
+    background-color: #469165;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+#banner .banner-container .banner-btn .btn img{
+}
+
+#banner .banner-container .banner-btn .btn2{
+    width: 251px;
+    border: 1;
+    border-color: white;
+    padding: 16.5px 10px 16.5px 16px;
+    background: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}

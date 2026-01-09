@@ -119,8 +119,6 @@ nav .btn button{
     font-weight: 600;
     color: white;
 }
-#banner .banner-container .banner-btn .btn img{
-}
 
 #banner .banner-container .banner-btn .btn2{
     width: 251px;
@@ -182,9 +180,98 @@ nav .btn button{
 }
 #notes .section-cards .card p{
     width: 274px;
-    padding-bottom: 69px;
+    /* padding-bottom: 69px; */
     font-size: 16px;
     line-height: 20px;
     color: #627382;
 }
 
+#brain-section{
+    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#brain-section .left{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+
+#brain-section .right .section-heading{
+    width: 700px;
+    height: 228px;
+    padding: 102px 40px 0 60px;
+}
+#brain-section .right .section-heading h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+}
+#brain-section .right .section-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+#brain-section .right .section-heading p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+
+#brain-section .right ul{
+    margin-top: 40px;
+    width: 700px;
+    height: 108px;
+    padding: 40px 0 102px 60px;
+    list-style-type: none;
+}
+
+#brain-section .right ul img{
+   width: 20px;
+}
+
+
+#early-access-section{
+    background-color: #F7F6F2;
+    width: 1360px;
+    height: 384px;
+    text-align: center;
+    padding: 80px 40px;
+    margin: 2px 120px 120px 120px;
+    border-radius: 12px;
+}
+
+#early-access-section .section-heading h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+}
+
+#early-access-section .section-heading p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+#early-access-section .btn button{
+    width: 194px;
+    height: 52px;
+    border: 0;
+    padding: 16px 12px;
+    background-color: #30B868;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 16px;
+}
+
+#early-access-section .messages p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    
+}

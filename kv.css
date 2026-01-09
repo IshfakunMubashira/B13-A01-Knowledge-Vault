@@ -10,6 +10,8 @@
   font-optical-sizing: auto;
 }
 
+
+/* Navigation bar section */
 nav{
     display: flex;
     justify-content: space-between;
@@ -58,6 +60,9 @@ nav .btn button:hover{
     background: none;
 }
 
+
+
+/* Banner section */
 #banner{
     background-image: url("assets/hero-bg.png");
     height: 674px;
@@ -82,7 +87,6 @@ nav .btn button:hover{
     border: 0;
     border-radius: 1000px;
     width: auto;
-    /* margin: 0 565px; */
 }
 
 #banner .banner-container .early-acs button:hover{
@@ -157,9 +161,13 @@ nav .btn button:hover{
     background: none;
 }
 
+
+
+/* Notes and cards section */
 #notes{
     text-align: center;
     margin: 0 120px;
+    background-color: #FBFBFB;
 }
 
 #notes .section-heading h2{
@@ -177,7 +185,6 @@ nav .btn button:hover{
 #notes .section-cards{
     display: flex;
     justify-content: space-between;
-    /* margin-top: 44px; */
     padding: 24px;
     margin: 44px 24px 72px 24px;
 
@@ -188,13 +195,22 @@ nav .btn button:hover{
     box-shadow: 0 4px 10px rgba(84, 84, 84, 0.225);
     border-radius: 8px;
     padding: 24px;
+    text-align: center;
 }
 
-#notes .section-cards .card img{
+#notes .section-cards .card .icon-bg{
     background-color: #F95555;
     width: 60px;
+    height: 60px;
     border-radius: 50%;
-    margin-top: 69px;
+    margin: 69px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#notes .section-cards .card .icon-bg img{
+    width: 32px;
+    height: 32px;
 }
 #notes .section-cards .card h6{
     font-size: 24px;
@@ -205,12 +221,13 @@ nav .btn button:hover{
 }
 #notes .section-cards .card p{
     width: 274px;
-    /* padding-bottom: 69px; */
     font-size: 16px;
     line-height: 20px;
     color: #627382;
 }
 
+
+/* Second Brain section */
 #brain-section{
     padding: 120px;
     display: flex;
@@ -257,9 +274,10 @@ nav .btn button:hover{
 }
 
 
+
+/* Early access section */
 #early-access-section{
     background-color: #F7F6F2;
-    /* width: 1360px; */
     height: 384px;
     text-align: center;
     padding: 80px 40px;
@@ -306,9 +324,9 @@ nav .btn button:hover{
     color: #627382; 
 }
 
+
+/* Footer section */
 footer{
-    /* width: 1600px; */
-    /* height: 348px; */
     background-color: #001931;
     padding: 120px 120px 30px 120px;
     text-align: center;

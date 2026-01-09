@@ -52,6 +52,12 @@ nav .btn button{
     color: white;
 }
 
+nav .btn button:hover{
+    color: black;
+    border: 1px solid black;
+    background: none;
+}
+
 #banner{
     background-image: url("assets/hero-bg.png");
     height: 674px;
@@ -78,6 +84,13 @@ nav .btn button{
     width: auto;
     /* margin: 0 565px; */
 }
+
+#banner .banner-container .early-acs button:hover{
+    color: black;
+    border: 1px solid black;
+    background: none;
+}
+
 #banner .banner-container .early-acs button .logo-dot{
     width: 12px;
     height: 12px;
@@ -120,6 +133,12 @@ nav .btn button{
     color: white;
 }
 
+#banner .banner-container .banner-btn .btn:hover{
+    color: black;
+    border: 1px solid black;
+    background: none;
+}
+
 #banner .banner-container .banner-btn .btn2{
     width: 251px;
     border: 1;
@@ -130,6 +149,12 @@ nav .btn button{
     font-size: 16px;
     font-weight: 600;
     color: white;
+}
+
+#banner .banner-container .banner-btn .btn2:hover{
+    color: black;
+    border: 1px solid black;
+    background: none;
 }
 
 #notes{
@@ -267,6 +292,12 @@ nav .btn button{
     font-weight: 600;
     color: white;
     margin-bottom: 16px;
+}
+
+#early-access-section .btn button:hover{
+    color: black;
+    border: 1px solid black;
+    background: none;
 }
 
 #early-access-section .messages p{
